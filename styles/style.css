@@ -181,6 +181,14 @@ body {
         margin-top: 0%;
     }
 
+    .footer {
+        position: static;
+    }
+
+    body {
+        padding-bottom: 0 !important;
+    
+
 
 }
 
