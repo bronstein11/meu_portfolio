@@ -1,0 +1,185 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:wght@100..900&display=swap');
+
+:root {
+    --cor-primaria: #000000;
+    --cor-secundaria: #f6f6f6;
+    --cor-terciaria: #22D4FD;
+    --cor-quaternaria: #8A2BE2;
+    --cor-hover: #272727;
+
+    --fonte-primaria: "Krona One", sans-serif;
+    --fonte-secundaria: "Montserrat", sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    box-sizing: border-box;
+    background-color: var(--cor-primaria);
+    color: var(--cor-secundaria);
+    padding-bottom: 100px;
+}
+
+.pagina__meu_curriculo strong {
+    color: var(--cor-quaternaria);
+}
+
+.header {
+    padding: 2% 0% 0% 20%;
+}
+
+.header__navegacao {
+    display: flex;
+    gap: 80px;
+}
+
+.header__link {
+    font-family: var(--fonte-secundaria);
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: var(--cor-terciaria);
+    text-decoration: none;
+}
+
+.container {
+    padding: 5% 20%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 82px;
+}
+
+.container__filhos {
+    width: 50%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.container__filhos__titulo {
+    font-size: 2.25rem;
+    font-family: var(--fonte-primaria);
+}
+
+.container__filhos__paragrafo {
+    font-size: 1.5rem;
+    font-family: var(--fonte-secundaria);
+    font-weight: 400;
+}
+
+.container__filhos__paragrafo__meu_curriculo {
+    font-size: 24px;
+    font-family: var(--fonte-secundaria);
+    font-weight: 400;
+}
+
+
+.titulo-destaque {
+    color: var(--cor-terciaria);
+}
+
+.container__links {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container__links__subtitulo {
+    font-family: var(--fonte-primaria);
+    font-weight: 400;
+    font-size: 1.5rem;
+}
+
+.container__links__navegacao {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    width: 70%;
+    padding: 16px 0;
+    border-radius: 8px;
+    border: 2px solid var(--cor-terciaria);
+    font-size: 1.5rem;
+    font-family: var(--fonte-secundaria);
+    font-weight: 600;
+    text-align: center;
+    text-decoration: none;
+    color: var(--cor-secundaria);
+}
+
+.container__links__navegacao:hover {
+    background-color: var(--cor-hover);
+}
+
+.container__minha__foto__about {
+    margin-top: -19%;
+}
+
+
+.container__minha__foto__curriculo {
+    margin-top: -92%;
+}
+
+
+
+.container__imagem_do_codigo {
+    width: 45%;
+    height: 10%;
+    margin-top: -27%;
+}
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--cor-primaria);
+    background-color: var(--cor-terciaria);
+    font-family: var(--fonte-secundaria);
+    font-size: 1.5rem;
+    width: 100%;
+    height: 80px;
+}
+
+@media (max-width: 1200px) {
+
+    .header {
+        padding: 10%;
+    }
+
+    .header__navegacao {
+        justify-content: center;
+    }
+
+    .container {
+        flex-direction: column-reverse;
+        padding: 5%;
+    }
+
+    .container__filhos {
+        width: auto;
+    }
+
+    .container__imagem_do_codigo {
+        margin-top: 0%;
+    }
+
+    .container__minha__foto__about {
+        margin-top: -6%;
+    }
+    
+    
+    .container__minha__foto__curriculo {
+        margin-top: 0%;
+    }
+
+
+}
+
+
