@@ -50,6 +50,13 @@ O estilo é baseado nas seguintes diretrizes:
 
 O projeto é totalmente responsivo e se adapta a diferentes tamanhos de tela. Em dispositivos menores, os elementos são reorganizados para garantir melhor usabilidade e leitura.
 
+## 🖥️ Como Executar o Projeto
+
+1. Clone o repositório ou faça o download dos arquivos
+2. Abra o arquivo `index.html` em seu navegador
+
+Ou acesse a versão online do projeto: https://meu-portfolio-beta-blush.vercel.app
+
 ## 📞 Contato
 
 Caso deseje entrar em contato comigo:
